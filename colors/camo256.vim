@@ -111,7 +111,7 @@ hi Todo guifg=red guibg=bisque ctermfg=196 ctermbg=224
 " Yi's modification
 hi Tabline ctermbg=247
 hi Search cterm=reverse
-hi CursorLine ctermbg=240
+hi CursorLine ctermbg=232
 hi Pmenu ctermbg=232
 hi PmenuSel ctermbg=106
 hi PmenuSBar ctermbg=106
