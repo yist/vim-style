@@ -115,3 +115,4 @@ hi CursorLine ctermbg=240
 hi Pmenu ctermbg=240
 hi PmenuSel ctermbg=106
 hi PmenuSBar ctermbg=106
+hi ColorColumn ctermbg=232
