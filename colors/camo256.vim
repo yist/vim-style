@@ -14,7 +14,7 @@ hi IncSearch gui=reverse guifg=none guibg=none cterm=reverse ctermfg=none ctermb
 hi Search gui=none guifg=none guibg=Yellow cterm=none ctermfg=none ctermbg=226
 hi MoreMsg gui=bold guifg=SeaGreen guibg=none cterm=bold ctermfg=29 ctermbg=none
 hi ModeMsg gui=bold guifg=none guibg=none cterm=bold ctermfg=none ctermbg=none
-hi LineNr gui=none guifg=Brown guibg=none cterm=none ctermfg=124 ctermbg=none
+hi LineNr gui=none guifg=Brown guibg=none cterm=none ctermfg=124 ctermbg=234
 hi Question gui=bold guifg=SeaGreen guibg=none cterm=bold ctermfg=29 ctermbg=none
 hi StatusLine gui=bold,reverse guifg=none guibg=none cterm=bold,reverse ctermfg=none ctermbg=none
 hi StatusLineNC gui=reverse guifg=none guibg=none cterm=reverse ctermfg=none ctermbg=none
@@ -30,7 +30,7 @@ hi DiffAdd gui=none guifg=none guibg=LightBlue cterm=none ctermfg=none ctermbg=1
 hi DiffChange gui=none guifg=none guibg=LightMagenta cterm=none ctermfg=none ctermbg=LightMagenta
 hi DiffDelete gui=bold guifg=Blue guibg=LightCyan cterm=bold ctermfg=21 ctermbg=195
 hi DiffText gui=bold guifg=none guibg=Red cterm=bold ctermfg=none ctermbg=196
-hi SignColumn gui=none guifg=DarkBlue guibg=Grey cterm=none ctermfg=18 ctermbg=250
+hi SignColumn gui=none guifg=DarkBlue guibg=Grey cterm=none ctermfg=18 ctermbg=234
 hi SpellBad gui=undercurl guifg=none guisp=Red cterm=undercurl ctermfg=none ctermbg=196
 hi SpellCap gui=undercurl guifg=none guisp=Blue cterm=undercurl ctermfg=none ctermbg=21
 hi SpellRare gui=undercurl guifg=none guisp=Magenta cterm=undercurl ctermfg=none ctermbg=201
@@ -105,7 +105,7 @@ hi SpecialComment guifg=cornsilk ctermfg=230
 hi Debug guifg=brown ctermfg=124
 hi Underlined guifg=IndianRed ctermfg=167
 hi Ignore guifg=grey30 ctermfg=239
-hi Error guifg=bisque guibg=red ctermfg=224 ctermbg=196
+hi Error guifg=bisque guibg=red ctermfg=196 ctermbg=234
 hi Todo guifg=red guibg=bisque ctermfg=196 ctermbg=224
 
 " Yi's modification
