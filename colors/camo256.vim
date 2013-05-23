@@ -116,3 +116,4 @@ hi Pmenu ctermbg=240
 hi PmenuSel ctermbg=106
 hi PmenuSBar ctermbg=106
 hi ColorColumn ctermbg=232
+hi MatchParen cterm=underline ctermfg=166 ctermbg=none 
