@@ -115,6 +115,6 @@ hi Visual         guifg=#e6fff3 guibg=#61a181 gui=none ctermfg=255 ctermbg=62 ct
 hi VisualNOS      guifg=#9bcfb5 guibg=#000000 gui=none ctermfg=152 ctermbg=16 cterm=none
 hi WarningMsg     guifg=#BF3EFF guibg=#000000 gui=bold ctermfg=171 ctermbg=16 cterm=bold
 hi WildMenu       guifg=#43705a guibg=#e6fff3 gui=none ctermfg=66 ctermbg=195 cterm=none
-hi MatchParen     gui=underline guifg=red guibg=none cterm=underline ctermfg=196 ctermbg=232
+hi MatchParen     gui=underline guifg=red guibg=none cterm=bold,underline ctermfg=196 ctermbg=232
 
 hi! link ColorColumn CursorLine
