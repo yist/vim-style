@@ -31,7 +31,7 @@ function! FavColo()
     let b:favcolosch = [ 'neverness-g2t', 'camo256', 'xoria256', 'molokai',
                        \ 'wombat256', 'autumnleaf-g2t', 'silent-g2t',
                        \ 'bamboo-g2t', 'novelfriend-g2t', 'google-g2t',
-                       \ 'scite-g2t', 'summerfruity', 'xoria256']
+                       \ 'scite-g2t', 'summerfruity']
   endif
   let b:numcolo = ['Select Color Scheme:']
   let b:coloidx = 0
