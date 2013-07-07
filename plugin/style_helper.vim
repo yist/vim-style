@@ -5,6 +5,7 @@ function! ConfigBasicTerminal()
   set t_Co=16
   set lcs=tab:>\ ,trail:.,extends:~,precedes:~
   set sbr&
+  let g:indentLine_char=':'
 endfunction
 
 function! ConfigAdvancedTerminal()
