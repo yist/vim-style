@@ -22,10 +22,10 @@ hi LineNr term=underline guifg=#303030 ctermfg=236 guibg=#101010 ctermbg=233
 hi CursorLineNr term=bold guifg=#ff8700 ctermfg=208
 hi Question term=standout guifg=#5fdfff ctermfg=81
 hi StatusLine term=bold gui=bold cterm=bold guifg=#5f87af ctermfg=67 guibg=#303030 ctermbg=236
-hi StatusLineNC term=none gui=none cterm=none guifg=#5f87af ctermfg=67 guibg=#303030 ctermbg=236
-hi VertSplit term=none guifg=#303030 ctermfg=236 guibg=#303030 ctermbg=236
+hi StatusLineNC term=NONE gui=NONE cterm=NONE guifg=#5f87af ctermfg=67 guibg=#303030 ctermbg=236
+hi VertSplit term=NONE guifg=#303030 ctermfg=236 guibg=#303030 ctermbg=236
 hi Title term=bold guifg=#df5f00 ctermfg=166
-hi Visual term=reverse gui=none cterm=none guibg=#003366 ctermbg=236
+hi Visual term=reverse gui=NONE cterm=NONE guibg=#003366 ctermbg=236
 hi VisualNOS guibg=#444444 ctermbg=238
 hi WarningMsg term=standout gui=bold cterm=bold guifg=#ffffff ctermfg=231 guibg=#444444 ctermbg=238
 hi WildMenu term=standout guifg=#5fdfff ctermfg=81 guibg=#000000 ctermbg=16
@@ -49,8 +49,8 @@ hi TabLine term=underline gui=underline cterm=underline guifg=#ffffff ctermfg=15
 hi TabLineSel term=bold gui=bold cterm=bold
 hi TabLineFill term=reverse gui=reverse cterm=reverse
 hi CursorColumn term=reverse guibg=#303030 ctermbg=236
-hi CursorLine term=none gui=none cterm=none guibg=#000000 ctermbg=233
-hi ColorColumn term=none guibg=#303030 ctermbg=236
+hi CursorLine term=NONE gui=NONE cterm=NONE guibg=#000000 ctermbg=233
+hi ColorColumn term=NONE guibg=#303030 ctermbg=236
 hi MatchParen term=reverse gui=bold cterm=bold guifg=#121212 ctermfg=233 guibg=#ff8700 ctermbg=208
 hi Normal guifg=#d0d0d0 ctermfg=252 guibg=#151515 ctermbg=233
 hi Cursor guifg=#151515 ctermfg=16 guibg=#dadada ctermbg=253

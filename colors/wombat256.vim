@@ -225,7 +225,7 @@ fun <SID>X(group, fg, bg, attr)
 	endif
 	if a:attr != ""
 		if a:attr == 'italic'
-			exec "hi ".a:group." gui=".a:attr." cterm=none"
+			exec "hi ".a:group." gui=".a:attr." cterm=NONE"
 		else
 			exec "hi ".a:group." gui=".a:attr." cterm=".a:attr
 		endif
@@ -233,23 +233,23 @@ fun <SID>X(group, fg, bg, attr)
 endfun
 " }}}
 
-call <SID>X("Normal",		"cccccc",	"242424",	"none")
-call <SID>X("Cursor",		"222222",	"ecee90",	"none")
-call <SID>X("CursorLine",	"",			"32322e",	"none")
+call <SID>X("Normal",		"cccccc",	"242424",	"NONE")
+call <SID>X("Cursor",		"222222",	"ecee90",	"NONE")
+call <SID>X("CursorLine",	"",			"32322e",	"NONE")
 call <SID>X("CursorColumn",	"",			"2d2d2d",	"")
 			"CursorIM
 			"Question
 			"IncSearch
 call <SID>X("Search",		"444444",	"af87d7",	"")
 call <SID>X("MatchParen",	"ecee90",	"857b6f",	"underline")
-call <SID>X("SpecialKey",	"6c6c6c",	"2d2d2d",	"none")
-call <SID>X("Visual",		"ecee90",	"597418",	"none")
-call <SID>X("LineNr",		"857b6f",	"121212",	"none")
-call <SID>X("Folded",		"a0a8b0",	"404048",	"none")
+call <SID>X("SpecialKey",	"6c6c6c",	"2d2d2d",	"NONE")
+call <SID>X("Visual",		"ecee90",	"597418",	"NONE")
+call <SID>X("LineNr",		"857b6f",	"121212",	"NONE")
+call <SID>X("Folded",		"a0a8b0",	"404048",	"NONE")
 call <SID>X("Title",		"f6f3e8",	"",			"bold")
-call <SID>X("VertSplit",	"444444",	"444444",	"none")
+call <SID>X("VertSplit",	"444444",	"444444",	"NONE")
 call <SID>X("StatusLine",	"f6f3e8",	"444444",	"italic")
-call <SID>X("StatusLineNC",	"857b6f",	"444444",	"none")
+call <SID>X("StatusLineNC",	"857b6f",	"444444",	"NONE")
 			"Scrollbar
 			"Tooltip
 			"Menu
@@ -267,17 +267,17 @@ call <SID>X("WarningMsg",	"ff0000",	"",			"")
 			"DiffText
 
 " syntax highlighting
-call <SID>X("Number",		"e5786d",	"",			"none")
-call <SID>X("Constant",		"e5786d",	"",			"none")
+call <SID>X("Number",		"e5786d",	"",			"NONE")
+call <SID>X("Constant",		"e5786d",	"",			"NONE")
 call <SID>X("String",		"95e454",	"",			"italic")
 call <SID>X("Comment",		"c0bc6c",	"",			"italic")
-call <SID>X("Identifier",	"caeb82",	"",			"none")
-call <SID>X("Keyword",		"87afff",	"",			"none")
-call <SID>X("Statement",	"87afff",	"",			"none")
-call <SID>X("Function",		"caeb82",	"",			"none")
-call <SID>X("PreProc",		"e5786d",	"",			"none")
-call <SID>X("Type",			"caeb82",	"",			"none")
-call <SID>X("Special",		"ffdead",	"",			"none")
+call <SID>X("Identifier",	"caeb82",	"",			"NONE")
+call <SID>X("Keyword",		"87afff",	"",			"NONE")
+call <SID>X("Statement",	"87afff",	"",			"NONE")
+call <SID>X("Function",		"caeb82",	"",			"NONE")
+call <SID>X("PreProc",		"e5786d",	"",			"NONE")
+call <SID>X("Type",			"caeb82",	"",			"NONE")
+call <SID>X("Special",		"ffdead",	"",			"NONE")
 call <SID>X("Todo",			"857b6f",	"",			"italic")
 			"Underlined
 			"Error

@@ -55,7 +55,7 @@ hi Ignore          guifg=#808080 guibg=bg
 hi IncSearch       guifg=#C4BE89 guibg=#000000
 
 hi Keyword         guifg=#F92672               gui=bold
-hi Label           guifg=#E6DB74               gui=none
+hi Label           guifg=#E6DB74               gui=NONE
 hi Macro           guifg=#C4BE89               gui=italic
 hi SpecialKey      guifg=#66D9EF               gui=italic
 
@@ -97,7 +97,7 @@ hi Title           guifg=#ef5939
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#66D9EF
-hi Type            guifg=#66D9EF               gui=none
+hi Type            guifg=#66D9EF               gui=NONE
 hi Underlined      guifg=#808080               gui=underline
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
@@ -155,7 +155,7 @@ if &t_Co > 255
    hi IncSearch       ctermfg=193 ctermbg=16
 
    hi Keyword         ctermfg=161               cterm=bold
-   hi Label           ctermfg=229               cterm=none
+   hi Label           ctermfg=229               cterm=NONE
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
 
@@ -193,7 +193,7 @@ if &t_Co > 255
    hi Todo            ctermfg=231 ctermbg=232   cterm=bold
 
    hi Typedef         ctermfg=81
-   hi Type            ctermfg=81                cterm=none
+   hi Type            ctermfg=81                cterm=NONE
    hi Underlined      ctermfg=244               cterm=underline
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
@@ -204,7 +204,7 @@ if &t_Co > 255
 
    hi Normal          ctermfg=252
    hi Comment         ctermfg=59
-   hi CursorLine                  ctermbg=232   cterm=none
+   hi CursorLine                  ctermbg=232   cterm=NONE
    hi CursorColumn                ctermbg=232
    hi LineNr          ctermfg=250 ctermbg=234
    hi NonText         ctermfg=238

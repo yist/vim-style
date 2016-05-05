@@ -35,30 +35,30 @@ let colors_name = "google"
 
 " pmenu
 
-hi Comment 		guifg=#aaaaaa	guibg=#ffffff	gui=none ctermfg=248 ctermbg=231 cterm=none
-hi Constant 	guifg=#6694e3	guibg=#ffffff	gui=none ctermfg=68 ctermbg=231 cterm=none
-hi Cursor 		guifg=#ffffff	guibg=#000000	gui=none ctermfg=231 ctermbg=16 cterm=none
-hi CursorLine		          	guibg=#efefef	gui=none ctermbg=254 cterm=none
-hi DiffAdd		guifg=#ffffff	guibg=#006633	gui=none ctermfg=231 ctermbg=23 cterm=none
-hi DiffChange	guifg=#000000	guibg=#ffffb5	gui=none ctermfg=16 ctermbg=229 cterm=none
-hi DiffDelete	guifg=#000000	guibg=#d96666	gui=none ctermfg=16 ctermbg=167 cterm=none
-hi DiffText		guifg=#d96666	guibg=#ffffb5	gui=none ctermfg=167 ctermbg=229 cterm=none
+hi Comment 		guifg=#aaaaaa	guibg=#ffffff	gui=NONE ctermfg=248 ctermbg=231 cterm=NONE
+hi Constant 	guifg=#6694e3	guibg=#ffffff	gui=NONE ctermfg=68 ctermbg=231 cterm=NONE
+hi Cursor 		guifg=#ffffff	guibg=#000000	gui=NONE ctermfg=231 ctermbg=16 cterm=NONE
+hi CursorLine		          	guibg=#efefef	gui=NONE ctermbg=254 cterm=NONE
+hi DiffAdd		guifg=#ffffff	guibg=#006633	gui=NONE ctermfg=231 ctermbg=23 cterm=NONE
+hi DiffChange	guifg=#000000	guibg=#ffffb5	gui=NONE ctermfg=16 ctermbg=229 cterm=NONE
+hi DiffDelete	guifg=#000000	guibg=#d96666	gui=NONE ctermfg=16 ctermbg=167 cterm=NONE
+hi DiffText		guifg=#d96666	guibg=#ffffb5	gui=NONE ctermfg=167 ctermbg=229 cterm=NONE
 hi Folded 		guibg=#efefef	guifg=#000000	gui=italic ctermfg=16 ctermbg=254 cterm=NONE
-hi Identifier 	guifg=#7799bb	guibg=#ffffff	gui=none ctermfg=67 ctermbg=231 cterm=none
+hi Identifier 	guifg=#7799bb	guibg=#ffffff	gui=NONE ctermfg=67 ctermbg=231 cterm=NONE
 hi ModeMsg		guifg=#ffffff	guibg=#6694e3	gui=bold ctermfg=231 ctermbg=68 cterm=bold
-hi NonText 		guifg=#f0f0f0	guibg=#ffffff	gui=none ctermfg=254 ctermbg=231 cterm=none
-hi Normal 		guifg=#000000	guibg=#ffffff	gui=none ctermfg=16 ctermbg=231 cterm=none
-hi PreProc 		guifg=#46aa64	guibg=#ffffff	gui=none ctermfg=72 ctermbg=231 cterm=none
-hi Search		guifg=#000000	guibg=#ffffb5 ctermfg=16 ctermbg=229 cterm=none
-hi Special		guifg=#2a5db0	guibg=#ffffff	gui=none ctermfg=25 ctermbg=231 cterm=none
+hi NonText 		guifg=#f0f0f0	guibg=#ffffff	gui=NONE ctermfg=254 ctermbg=231 cterm=NONE
+hi Normal 		guifg=#000000	guibg=#ffffff	gui=NONE ctermfg=16 ctermbg=231 cterm=NONE
+hi PreProc 		guifg=#46aa64	guibg=#ffffff	gui=NONE ctermfg=72 ctermbg=231 cterm=NONE
+hi Search		guifg=#000000	guibg=#ffffb5 ctermfg=16 ctermbg=229 cterm=NONE
+hi Special		guifg=#2a5db0	guibg=#ffffff	gui=NONE ctermfg=25 ctermbg=231 cterm=NONE
 hi Statement 	guifg=#2a5db0	guibg=#ffffff	gui=bold,underline ctermfg=25 ctermbg=231 cterm=bold,underline
 hi StatusLine 	guifg=#ffffff	guibg=#6694e3	gui=bold ctermfg=231 ctermbg=68 cterm=bold
-hi StatusLineNC guifg=#aaaaaa	guibg=#e0ecff	gui=none ctermfg=248 ctermbg=189 cterm=none
+hi StatusLineNC guifg=#aaaaaa	guibg=#e0ecff	gui=NONE ctermfg=248 ctermbg=189 cterm=NONE
 hi Todo 		guifg=#ffffff	guibg=#d96666	gui=bold ctermfg=231 ctermbg=167 cterm=bold
 hi Type 		guifg=#006633	guibg=#ffffff	gui=bold ctermfg=23 ctermbg=231 cterm=bold
 hi Underlined	guifg=#000000	guibg=#ffffff	gui=underline ctermfg=16 ctermbg=231 cterm=underline
-hi VertSplit	guifg=#e0ecff	guibg=#e0ecff	gui= none ctermfg=189 ctermbg=189 cterm=none
-hi Visual		guifg=#ffffff	guibg=#6694e3	gui=none ctermfg=231 ctermbg=68 cterm=none
+hi VertSplit	guifg=#e0ecff	guibg=#e0ecff	gui= NONE ctermfg=189 ctermbg=189 cterm=NONE
+hi Visual		guifg=#ffffff	guibg=#6694e3	gui=NONE ctermfg=231 ctermbg=68 cterm=NONE
 hi!	link Macro			PreProc
 hi! link Boolean		Constant
 hi! link Character		Constant

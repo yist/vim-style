@@ -13,19 +13,19 @@ endif
 let g:colors_name = 'neverness'
 
 " Comments: grey
-hi Comment        ctermfg=DarkCyan ctermbg=black  guifg=#848484 guibg=#000000 gui=none 
+hi Comment        ctermfg=DarkCyan ctermbg=black  guifg=#848484 guibg=#000000 gui=NONE 
 
 " Constants: SkyBlue
-hi Boolean        ctermfg=Cyan      ctermbg=black  guifg=#87ceeb guibg=#000000 gui=none
-hi Character      ctermfg=Cyan      ctermbg=black  guifg=#87ceeb guibg=#000000 gui=none
-hi Constant       ctermfg=Cyan      ctermbg=black  guifg=#87ceeb guibg=#000000 gui=none
-hi Float          ctermfg=Cyan      ctermbg=black  guifg=#87ceeb guibg=#000000 gui=none
-hi Number         ctermfg=Cyan      ctermbg=black  guifg=#87ceeb guibg=#000000 gui=none
-hi String         ctermfg=Cyan      ctermbg=black  guifg=#87ceeb guibg=#000000 gui=none
+hi Boolean        ctermfg=Cyan      ctermbg=black  guifg=#87ceeb guibg=#000000 gui=NONE
+hi Character      ctermfg=Cyan      ctermbg=black  guifg=#87ceeb guibg=#000000 gui=NONE
+hi Constant       ctermfg=Cyan      ctermbg=black  guifg=#87ceeb guibg=#000000 gui=NONE
+hi Float          ctermfg=Cyan      ctermbg=black  guifg=#87ceeb guibg=#000000 gui=NONE
+hi Number         ctermfg=Cyan      ctermbg=black  guifg=#87ceeb guibg=#000000 gui=NONE
+hi String         ctermfg=Cyan      ctermbg=black  guifg=#87ceeb guibg=#000000 gui=NONE
 
 " Identifier: SteelBlue1
-hi Identifier     ctermfg=LightCyan ctermbg=black  guifg=#63b8ff guibg=#000000 gui=none
-hi Function       ctermfg=LightCyan ctermbg=black  guifg=#63b8ff guibg=#000000 gui=none
+hi Identifier     ctermfg=LightCyan ctermbg=black  guifg=#63b8ff guibg=#000000 gui=NONE
+hi Function       ctermfg=LightCyan ctermbg=black  guifg=#63b8ff guibg=#000000 gui=NONE
 
 " Statement: SteelBlue
 hi Conditional    ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=bold
@@ -37,11 +37,11 @@ hi Repeat         ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 g
 hi Statement      ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=bold
 
 " PreProc: DarkOrchid1
-hi PreProc        ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 gui=none
-hi Include        ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 gui=none
-hi Define         ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 gui=none
-hi Macro          ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 gui=none
-hi PreCondit      ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 gui=none
+hi PreProc        ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 gui=NONE
+hi Include        ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 gui=NONE
+hi Define         ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 gui=NONE
+hi Macro          ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 gui=NONE
+hi PreCondit      ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 gui=NONE
 
 " Type: orchid2
 hi Type           ctermfg=DarkGreen ctermbg=black  guifg=#ee7ae9 guibg=#000000 gui=bold
@@ -50,24 +50,24 @@ hi Structure      ctermfg=DarkGreen ctermbg=black  guifg=#ee7ae9 guibg=#000000 g
 hi Typedef        ctermfg=DarkGreen ctermbg=black  guifg=#ee7ae9 guibg=#000000 gui=bold
 
 " Special: cyan2
-hi Special        ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=none
-hi SpecialChar    ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=none
-hi Tag            ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=none
-hi SpecialComment ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=none
-hi Delimiter      ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=none
-hi Debug          ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=none
+hi Special        ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=NONE
+hi SpecialChar    ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=NONE
+hi Tag            ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=NONE
+hi SpecialComment ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=NONE
+hi Delimiter      ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=NONE
+hi Debug          ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=NONE
 
 " Underline: NavajoWhite2
-hi Underlined     ctermfg=LightGray ctermbg=black  guifg=#eecfa1 guibg=#000000 gui=none
+hi Underlined     ctermfg=LightGray ctermbg=black  guifg=#eecfa1 guibg=#000000 gui=NONE
 
 " Ignore: black
-hi Ignore         ctermfg=LightGray ctermbg=black  guifg=#ffffff guibg=#000000 gui=none
+hi Ignore         ctermfg=LightGray ctermbg=black  guifg=#ffffff guibg=#000000 gui=NONE
 
 " Error: red
 hi Error          ctermfg=LightGray ctermbg=black  guifg=#ff0000 guibg=#232323 gui=bold
 
 " To do: SlateGray3
-hi Todo           ctermfg=LightMagenta ctermbg=black  guifg=#9fb6cd guibg=#232323 gui=none
+hi Todo           ctermfg=LightMagenta ctermbg=black  guifg=#9fb6cd guibg=#232323 gui=NONE
 
 " Spelling...
 hi SpellBad    ctermfg=DarkRed    ctermbg=black
@@ -76,24 +76,24 @@ hi SpellRare   ctermfg=DarkYellow ctermbg=black
 hi SpellLocal  ctermfg=DarkGreen  ctermbg=black
 
 " "set cursorline"  and "set cursorcolumn" options.
-hi lCursor        guifg=#43705a guibg=#e6fff3 gui=none
-hi CursorColumn   guibg=#222222 gui=none
-hi CursorLine     guibg=#222222 gui=none
+hi lCursor        guifg=#43705a guibg=#e6fff3 gui=NONE
+hi CursorColumn   guibg=#222222 gui=NONE
+hi CursorLine     guibg=#222222 gui=NONE
 
 " Line number.
 "hi LineNr         ctermfg=DarkMagenta ctermbg=black  guifg=#4682b4 guibg=#000000 gui=bold
-hi LineNr         ctermfg=DarkMagenta ctermbg=black  guifg=#213d54 guibg=#000000 gui=none
+hi LineNr         ctermfg=DarkMagenta ctermbg=black  guifg=#213d54 guibg=#000000 gui=NONE
 
 " Normal colour: just white thank you.
-hi Normal         guifg=#ffffff guibg=#000000 gui=none
+hi Normal         guifg=#ffffff guibg=#000000 gui=NONE
 
 " Others:  These are "highlight-groups" and "highlight-default" in help section.
-hi Cursor         guifg=#43705a guibg=#e6fff3 gui=none
+hi Cursor         guifg=#43705a guibg=#e6fff3 gui=NONE
 hi DiffAdd        guifg=#e6fff3 guibg=#43705a gui=bold
-hi DiffChange     guifg=#e6fff3 guibg=#43705a gui=none
-hi DiffDelete     guifg=#e6fff3 guibg=#43705a gui=none
+hi DiffChange     guifg=#e6fff3 guibg=#43705a gui=NONE
+hi DiffDelete     guifg=#e6fff3 guibg=#43705a gui=NONE
 hi DiffText       guifg=#000000 guibg=#e6fff3 gui=bold
-hi Directory      guifg=#e6fff3 guibg=#000000 gui=none
+hi Directory      guifg=#e6fff3 guibg=#000000 gui=NONE
 hi ErrorMsg       guifg=#e6fff3 guibg=#61a181 gui=bold
 hi FoldColumn     guifg=#9bcfb5 guibg=#43705a gui=bold
 hi Folded         guifg=#9bcfb5 guibg=#43705a gui=bold
@@ -103,14 +103,14 @@ hi MoreMsg        guifg=#4EEE94 guibg=#000000 gui=bold
 hi NonText        guifg=#c0c0c0 guibg=#000000 gui=bold
 hi Question       guifg=#9bcfb5 guibg=#000000 gui=bold
 hi Search         guifg=#1d3026 guibg=#61a181 gui=bold
-hi SpecialKey     guifg=#9bcfb5 guibg=#000000 gui=none
+hi SpecialKey     guifg=#9bcfb5 guibg=#000000 gui=NONE
 "hi StatusLine     guifg=#e6fff3 guibg=#61a181 gui=bold
 "hi StatusLineNC   guifg=#1d3026 guibg=#61a181 gui=bold
-hi StatusLine     guifg=#4EEE94 guibg=#333333 gui=none
-hi StatusLineNC   guifg=#4EEE94 guibg=#222222 gui=none
+hi StatusLine     guifg=#4EEE94 guibg=#333333 gui=NONE
+hi StatusLineNC   guifg=#4EEE94 guibg=#222222 gui=NONE
 hi Title          guifg=#e6fff3 guibg=#1d3026 gui=bold
-hi VertSplit      guifg=#61a181 guibg=#61a181 gui=none
-hi Visual         guifg=#e6fff3 guibg=#61a181 gui=none
-hi VisualNOS      guifg=#9bcfb5 guibg=#000000 gui=none
+hi VertSplit      guifg=#61a181 guibg=#61a181 gui=NONE
+hi Visual         guifg=#e6fff3 guibg=#61a181 gui=NONE
+hi VisualNOS      guifg=#9bcfb5 guibg=#000000 gui=NONE
 hi WarningMsg     guifg=#BF3EFF guibg=#000000 gui=bold
-hi WildMenu       guifg=#43705a guibg=#e6fff3 gui=none
+hi WildMenu       guifg=#43705a guibg=#e6fff3 gui=NONE
