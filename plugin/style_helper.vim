@@ -30,7 +30,7 @@ function! FavColo()
     let b:favcolosch = ['neverness', 'molokai', 'bamboo']
   else
     let b:favcolosch = [ 'neverness-g2t', 'camo256', 'xoria256', 'molokai',
-                       \ 'wombat256', 'autumnleaf-g2t', 'silent-g2t',
+                       \ 'wombat256', 'space-vim-dark', 'smyck', 'autumnleaf-g2t', 'silent-g2t',
                        \ 'bamboo-g2t', 'novelfriend-g2t', 'google-g2t',
                        \ 'scite-g2t', 'summerfruity']
   endif
