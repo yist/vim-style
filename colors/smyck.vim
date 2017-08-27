@@ -12,7 +12,7 @@ set t_Co=256
 let g:colors_name = "smyck"
 
 "hi WildMenu -- no settings --
-"hi SignColumn -- no settings --
+hi SignColumn cterm=NONE
 "hi TabLineSel -- no settings --
 "hi CTagsMember -- no settings --
 "hi CTagsGlobalConstant -- no settings --
