@@ -40,7 +40,7 @@ hi IncSearch guifg=#8F8F8F guibg=#F6DC69 guisp=#F6DC69 gui=NONE ctermfg=245 cter
 hi SpecialComment guifg=#d7d7d7 guibg=NONE guisp=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#96D9F1 guibg=NONE guisp=NONE gui=NONE ctermfg=153 ctermbg=NONE cterm=NONE
 hi Title guifg=#88CCE7 guibg=NONE guisp=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
-hi Folded guifg=#C4E858 guibg=#8F8F8F guisp=#8F8F8F gui=NONE ctermfg=191 ctermbg=245 cterm=NONE
+hi Folded guifg=#C4E858 guibg=black guisp=#8F8F8F gui=underline ctermfg=191 ctermbg=245 cterm=underline
 hi PreCondit guifg=#D1FA71 guibg=NONE guisp=NONE gui=NONE ctermfg=192 ctermbg=NONE cterm=NONE
 hi Include guifg=#D1FA71 guibg=NONE guisp=NONE gui=NONE ctermfg=192 ctermbg=NONE cterm=NONE
 hi StatusLineNC guifg=#FBFBFB guibg=#5D5D5D guisp=#5D5D5D gui=NONE ctermfg=15 ctermbg=59 cterm=NONE
